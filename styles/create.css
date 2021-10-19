@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.container {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 80px;
+    margin-top: 100px;
+}
+
+.col-25 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+    margin-top: 30px;
+  }
+  
+.col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+    margin: 20px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.p3 {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    float: right;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  
+  @media screen and (max-width: 700px) {
+    .col-25, .col-754, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+ 
+
+.duration {
+  width: 60%;
+  height: 50px;
+}
+
+.time {
+  width: 30%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.date {
+  width: 35%;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.duration-gap {
+  width: 25%;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.col-75 a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.font {
+  font-size: 20px;
+}
